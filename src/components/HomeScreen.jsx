@@ -82,10 +82,9 @@ export default props => {
 
                 <View style={style.ConteinerCardProd} >
                     <View style={style.ConteinerCard}>
-                        <Pressable style={{ flexDirection: "row", width: "100%" }} onPress={("")}>
+                        <Pressable style={{ flexDirection: "row", width: "100%" }} onPress={('')}>
                             <Image style={style.produtoImage}
                                 source={require('../image/batman.png')} />
-
                             <View style={style.cardProduto}>
                                 <Text style={{ fontSize: 14, fontWeight: "bold" }}>BATMAN: GOTHAM BY GASLIGHT</Text>
                                 <Text style={estilo.fontSmall}>Estátua do personagem Batman dos quadrinhos da DC Comics...</Text>

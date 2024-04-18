@@ -44,9 +44,9 @@ export default props => {
                     )
                 }
                 >
-                    <Tab.Screen name="Início" component={SplashScreen} options={{headerTitleAlign:"center"}}/>
+                    <Tab.Screen name="Início" component={SplashScreen} options={{headerTitleAlign:"center", headerShown:false}}/>
                     <Tab.Screen name="Catálago" component={HomeScreen} options={{headerTitleAlign:"center"}}/>
-                    <Tab.Screen name="Produto" component={ProdScreen} options={{headerTitleAlign:"center"}}/>
+                    <Tab.Screen name="Produto" component={ProdScreen} options={{headerTitleAlign:"center", headerShown:false}}/>
                 </Tab.Navigator>
             </NavigationContainer>
         </SafeAreaView>

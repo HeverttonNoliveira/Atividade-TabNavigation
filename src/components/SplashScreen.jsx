@@ -13,7 +13,7 @@ export default props => {
                     Transforme sua imaginação em realidade com nossa coleção de action figures</Text>
             </View>
 
-            <Pressable style={estilo.buttonConfig} onPress={("")}>
+            <Pressable style={estilo.buttonConfig} onPress={() => props.navigation.navigate('Catálago')}>
                 <Text style={estilo.buttonText}>Continuar</Text>
             </Pressable>
         </View>
